@@ -1,0 +1,42 @@
+{
+  "friendly_name": "Ubuntu Noble Desktop",
+  "image_src": "macchiato-noble.png",
+  "description": "A full Ubuntu Noble desktop for Kasm, pre-loaded with a productivity and communication app suite.",
+  "cores": 2,
+  "memory": 4800,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "macchiato23/kasm-macchiato-noble:latest",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-macchiato-noble:latest",
+      "uncompressed_size_mb": 3440,
+      "available_tags": [
+        "latest",
+        "1.0",
+        "develop"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-macchiato-noble:latest",
+      "uncompressed_size_mb": 3440,
+      "available_tags": [
+        "latest",
+        "1.0",
+        "develop"
+      ]
+    }
+  ]
+}
