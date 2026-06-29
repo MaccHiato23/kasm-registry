@@ -1,0 +1,43 @@
+{
+  "friendly_name": "Noble Development Rootless",
+  "image_src": "noble-development-rootless.png",
+  "description": "Ubuntu Noble development desktop with rootless Docker-in-Docker, pre-loaded with VS Code, IntelliJ, Postman, Brave, Thunderbird, Node, Java, Maven, and Claude Code.",
+  "cores": 4,
+  "memory": 8192,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "macchiato23/kasm-macchiato-noble-development-rootless:latest",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-macchiato-noble-development-rootless:latest",
+      "uncompressed_size_mb": 4640,
+      "available_tags": [
+        "latest",
+        "1.1",
+        "develop"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-macchiato-noble-development-rootless:latest",
+      "uncompressed_size_mb": 4640,
+      "available_tags": [
+        "latest",
+        "1.1",
+        "develop"
+      ]
+    }
+  ]
+}
