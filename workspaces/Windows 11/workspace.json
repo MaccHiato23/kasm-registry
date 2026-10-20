@@ -1,0 +1,42 @@
+{
+  "friendly_name": "Windows 11",
+  "image_src": "macchiato-windows-11.png",
+  "description": "An Ubuntu Noble XFCE desktop styled like Windows 11, with a Fluent theme, Win11 icons, a centered taskbar, and Firefox pinned.",
+  "cores": 2,
+  "memory": 4800,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "macchiato23/kasm-macchiato-windows-11:latest",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-macchiato-windows-11:latest",
+      "uncompressed_size_mb": 5598,
+      "available_tags": [
+        "latest",
+        "1.1",
+        "develop"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-macchiato-windows-11:latest",
+      "uncompressed_size_mb": 5598,
+      "available_tags": [
+        "latest",
+        "1.1",
+        "develop"
+      ]
+    }
+  ]
+}
